@@ -1,0 +1,5 @@
+times = ('Corinthians', 'Grêmio', 'Flamengo', 'Bota Fogo', 'São Paulo', 'Palmeiras', 'Fluminense', 'Curitiba', 'Joinville', 'Santos')
+print(f'Os cinco primeiros times são: {times[:5]}')
+print(f'Os últimos 4 colocados são: {times[6:]}')
+print(f'Times em ordem alfabética: {sorted(times)}')
+print(f'O Joinville está na posição: {times.index("Joinville") +1}')
