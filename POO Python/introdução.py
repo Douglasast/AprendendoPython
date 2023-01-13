@@ -8,7 +8,6 @@ class Personagem:
     
     def falar(self):
         print(print(self.fala))
-    pass
 
 personagem1 = Personagem('Willow', 19, 'Feminino', 'Flamejante', 'Eu gosto de fogo.')
 personagem2 = Personagem('Codsworth', 210, 'Masculino', 'Sistemático' )
