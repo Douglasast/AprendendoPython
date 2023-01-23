@@ -3,7 +3,7 @@ def leiaint(msg):
         try:
             num = int(input(msg))
         except (ValueError, TypeError):
-            print('Erro, Digite um número inteiro valido.')
+            print('Erro, Digite um número inteiro válido.')
             continue
         else:
             return num
@@ -14,7 +14,7 @@ def leiafloat(msg):
         try:
             num = float(input(msg))
         except (ValueError, TypeError):
-            print('Erro, Digite um número real valido.')
+            print('Erro, Digite um número real válido.')
             continue
         else:
             return num

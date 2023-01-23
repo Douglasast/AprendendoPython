@@ -1,5 +1,5 @@
 from ex111.UtilidadesCeV import Dado
 from ex111.UtilidadesCeV import Moeda
 
-p = Dado.leiadinheiro('Digite o preço: R$')
-Moeda.analisar(p,50,20)
+preço = Dado.leiadinheiro('Digite o preço: R$')
+Moeda.analisar(preço,50,20)
