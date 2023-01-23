@@ -4,13 +4,13 @@ def ajuda():
         print('SISTEMA DE AJUDA PyHELP')
         print('-----' * 5)
         print()
-        f = str(input('Função ou Biblioteca: ')).strip().lower()
-        if f == 'fim':
+        FunçãoBiblioteca = str(input('Função ou Biblioteca: ')).strip().lower()
+        if FunçãoBiblioteca == 'fim':
             break
         print('-----' * 5)
-        print(f'Acessando o manual do comando {f}')
+        print(f'Acessando o manual do comando {FunçãoBiblioteca}')
         print('-----' * 5)
         print()
-        help(f)
+        help(FunçãoBiblioteca)
 print('Fim do programa')
 ajuda()

@@ -1,20 +1,20 @@
-def fatorial(n, show=False):
+def fatorial(num, show=False):
     '''
-    Calcula o Fatorial de um numero e mostra na tela.
-    :param n: numero.
+    Calcula o Fatorial de um número e mostra na tela.
+    :param num: numero.
     :param show: (opcional) False/True, mostra a conta do fatorial
     :return: O valor do fatorial de um numero n.
 
     '''
-    f = 1
-    for c in range(n, 0, -1):
+    fatorial = 1
+    for count in range(num, 0, -1):
         if show == True:
-            if c != 1:
-                print(f'{c} x ', end='')
+            if count != 1:
+                print(f'{count} x ', end='')
             else:
-                print(f'{c} = ', end= '')
-        f = f * c
-    return f
+                print(f'{count} = ', end= '')
+        fatorial = fatorial * count
+    return fatorial
 
 
 print(fatorial(5))
