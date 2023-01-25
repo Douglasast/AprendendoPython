@@ -15,8 +15,8 @@ def menu():
             print('')
             print('Mostrando Cadastro:')
             print('')
-            for i in lista:
-                print(f'{i["nome"]}, {i["idade"]} anos.')
+            for pessoa in lista:
+                print(f'{pessoa["nome"]}, {pessoa["idade"]} anos.')
                 
         elif opção == '2':
             dados['nome'] = str(input('Nome:')).strip().capitalize()
